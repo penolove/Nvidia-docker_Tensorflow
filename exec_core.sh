@@ -1,2 +1,2 @@
-docker exec -ti gpu_s1 /bin/bash
+docker exec -ti gpu_s /bin/bash
 

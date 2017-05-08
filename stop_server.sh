@@ -1,2 +1,2 @@
-docker kill gpu_s1;
-docker rm gpu_s1;
+docker kill gpu_s;
+docker rm gpu_s;
