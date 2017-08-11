@@ -1,11 +1,10 @@
 # Nvidia-docker_Tensorflow
-
 - ssh
 - tmux 
 - vim
-- anaconda 2.11
-- tensorflow 1.0
-- R 3.3
+- anaconda 
+- tensorflow 
+- R 
 
 ```
 edit the ssh server port 
@@ -13,3 +12,8 @@ edit the ssh server port
 
 service ssh start
 ```
+
+### pytorch dataloder
+notice that while using pytorch dataloder , which will use /dev/shm
+increasing shm size with --shm-size="4g" (default 64m)
+
